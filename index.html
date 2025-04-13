@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikołaj Solecki - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="light-mode">
+
+    <header class="header">
+      <div class="header__theme">
+        <img class="header__theme-btn header__theme-btn--light" src="assets/btnChange-theme-light.svg" alt="Light Theme button">
+        <img class="header__theme-btn header__theme-btn--dark hidden" src="assets/btnChange-theme-dark.svg" alt="Dark Theme button">
+      </div>
+      
+      <section class="header__profile">
+        <h2 class="header__profile-title visually-hidden">Profile Information</h2>
+        <div class="header__profile-img-container">
+          <img class="header__profile-picture" src="assets/profile-picture.jpg" alt="Profile picture">
+        </div>
+        <div class="header__profile-details">
+          <h1 class="header__profile-name">Victor Alvarado</h1>
+          <p class="header__profile-role">Software Engineer</p>
+
+          <nav class="header__profile-nav" aria-label="Social Media Links">
+            <ul class="header__profile-list">
+                <li class="header__profile-item">
+                    <a class="header__profile-link" href="https://github.com" target="_blank">
+                        <img class="header__profile-icon header__profile-icon--light" src="assets/github.svg" alt="Link to Github profile">
+                        <img class="header__profile-icon header__profile-icon--dark hidden" src="assets/github-dark-mode.svg" alt="Link to Github profile">
+                    </a>
+                </li>
+                <li class="header__profile-item">
+                    <a class="header__profile-link" href="https://twitter.com" target="_blank">
+                        <img class="header__profile-icon header__profile-icon--light" src="assets/twitter.svg" alt="Link to Twitter profile">
+                        <img class="header__profile-icon header__profile-icon--dark hidden" src="assets/twitter-dark-mode.svg" alt="Link to Twitter profile">
+                    </a>
+                </li>
+                <li class="header__profile-item">
+                    <a class="header__profile-link" href="https://linkedin.com" target="_blank">
+                        <img class="header__profile-icon header__profile-icon--light" src="assets/linkedin.svg" alt="Link to LinkedIn profile">
+                        <img class="header__profile-icon header__profile-icon--dark hidden" src="assets/linkedin-dark-mode.svg" alt="Link to LinkedIn profile">
+                    </a>
+                </li>
+                <li class="header__profile-item">
+                    <a class="header__profile-link" href="https://youtube.com" target="_blank">
+                        <img class="header__profile-icon header__profile-icon--light" src="assets/youtube.svg" alt="Link to Youtube profile">
+                        <img class="header__profile-icon header__profile-icon--dark hidden" src="assets/youtube-dark-mode.svg" alt="Link to Youtube profile">
+                    </a>
+                </li>
+            </ul>
+        </nav>    
+        </div>
+      </section>
+    </header>
+
+    <main class="main">
+      <section class="main__profile-facts">
+        <div class="main__profile-facts-item main__profile-facts-item--years-of-experience">
+            <p class="main__profile-facts-number">7</p>
+            <h2 class="main__profile-facts-title">Years of work experience</h2>
+        </div>
+        <div class="main__profile-facts-item main__profile-facts-item--completed-projects">
+            <p class="main__profile-facts-number">50+</p>
+            <h2 class="main__profile-facts-title">Completed projects</h2>
+        </div>
+        <div class="main__profile-facts-item main__profile-facts-item--satisfied-customers">
+            <p class="main__profile-facts-number">20+</p>
+            <h2 class="main__profile-facts-title">Satisfied customers</h2>
+        </div>
+      </section>
+
+      <section class="main__buttons">
+        <h2 class="visually-hidden">Download and Contact Buttons</h2>
+        <button class="main__buttons-item main__buttons-item--download">Download CV</button>
+        <button class="main__buttons-item main__buttons-item--contact">Contact me</button>
+      </section>
+
+      <section class="main__tabs">
+        <div class="main__tabs-item main__tabs-item--active">
+          <h2 class="main__tabs-title">Portfolio</h2>
+        </div>
+        <div class="main__tabs-item main__tabs-item--disabled">
+          <h2 class="main__tabs-title">Skills</h2>
+        </div>
+      </section>
+
+      <section class="main__tabs-content">
+        <h2 class="visually-hidden">Portfolio Projects</h2>
+        
+        <a class="main__tabs-content-link" href="" target="_blank">
+          <div class="main__tabs-content-item">
+            <img class="main__tabs-content-image" src="assets/portfolio/smartertraining.jpg" alt="Project 1">
+            <div class="main__tabs-content-overlay">
+              <h3 class="main__tabs-content-title">SmarterTrading411</h3>
+              <p class="main__tabs-content-paragraph">Landing page of SmarterTrading411 created 
+                using wordPress</p>
+              <img class="main__tabs-content-icon" src="assets/linkIcon.svg" alt="Link to project">
+            </div>
+          </div>
+        </a>
+      
+        <a class="main__tabs-content-link" href="" target="_blank">
+          <div class="main__tabs-content-item">
+            <img class="main__tabs-content-image" src="assets/portfolio/spfairvalue.jpg" alt="Project 2 - SpFairValue">
+            <div class="main__tabs-content-overlay">
+              <h3 class="main__tabs-content-title">SpFairValue</h3>
+              <p class="main__tabs-content-paragraph">Landing page of SpFairValue created 
+                using wordPress</p>
+              <img class="main__tabs-content-icon" src="assets/linkIcon.svg" alt="Link to project">
+            </div>
+          </div>
+        </a>
+      
+        <a class="main__tabs-content-link" href="" target="_blank">
+          <div class="main__tabs-content-item">
+            <img class="main__tabs-content-image" src="assets/portfolio/posters.jpg" alt="Project 3 - Posters">
+            <div class="main__tabs-content-overlay">
+              <h3 class="main__tabs-content-title">Posters</h3>
+              <p class="main__tabs-content-paragraph">Landing page of Posters created 
+                using wordPress</p>
+              <img class="main__tabs-content-icon" src="assets/linkIcon.svg" alt="Link to project">
+            </div>
+          </div>
+        </a>
+      
+        <a class="main__tabs-content-link" href="" target="_blank">
+          <div class="main__tabs-content-item">
+            <img class="main__tabs-content-image" src="assets/portfolio/thewheelkitchen.jpg" alt="Project 4 - The Wheel Kitchen">
+            <div class="main__tabs-content-overlay">
+              <h3 class="main__tabs-content-title">The Wheel Kitchen</h3>
+              <p class="main__tabs-content-paragraph">Landing page of The Wheel Kitchen created 
+                using wordPress</p>
+              <img class="main__tabs-content-icon" src="assets/linkIcon.svg" alt="Link to project">
+            </div>
+          </div>
+        </a>
+      
+        <a class="main__tabs-content-link" href="" target="_blank">
+          <div class="main__tabs-content-item">
+            <img class="main__tabs-content-image" src="assets/portfolio/simplypaper.jpg" alt="Project 5 - Simply Paper">
+            <div class="main__tabs-content-overlay">
+              <h3 class="main__tabs-content-title">Simply Paper</h3>
+              <p class="main__tabs-content-paragraph">Landing page of Simply Paper created 
+                using wordPress</p>
+              <img class="main__tabs-content-icon" src="assets/linkIcon.svg" alt="Link to project">
+            </div>
+          </div>
+        </a>
+      
+        <a class="main__tabs-content-link" href="" target="_blank">
+          <div class="main__tabs-content-item">
+            <img class="main__tabs-content-image" src="assets/portfolio/issima.jpg" alt="Project 6 - Issima">
+            <div class="main__tabs-content-overlay">
+              <h3 class="main__tabs-content-title">Issima</h3>
+              <p class="main__tabs-content-paragraph">Landing page of Issima created 
+                using wordPress</p>
+              <img class="main__tabs-content-icon" src="assets/linkIcon.svg" alt="Link to project">
+            </div>
+          </div>
+        </a>
+
+      </section>      
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">© Victor Alvarado. 2022 All rights reserved</p>
+  </footer>
+
+  <button class="scroll-to-top-btn visually-hidden" onclick="scrollToTop()">↑</button>
+
+  </body>
+</html>
